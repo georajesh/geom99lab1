@@ -26,25 +26,25 @@ function initMap() {
     const firstFlightPath = new google.maps.Polyline({
         path: firstLeg,
         geodesic: true,
-        strokeColor: "#FFADAD",
+        strokeColor: "rgb(0,0,0)",
         strokeOpacity: 1.0,
-        strokeWeight: 4,
+        strokeWeight: 2,
     });
 
     const secondFlightPath = new google.maps.Polyline({
         path: secondLeg,
         geodesic: true,
-        strokeColor: "#CAFFBF",
+        strokeColor: "rgb(255,0,0)",
         strokeOpacity: 1.0,
-        strokeWeight: 4,
+        strokeWeight: 2,
     });
 
   const thirdFlightPath = new google.maps.Polyline({
         path: thirdLeg,
         geodesic: true,
-        strokeColor: "#BDB2FF",
+        strokeColor: "rgb(0,0,255)",
         strokeOpacity: 1.0,
-        strokeWeight: 4,
+        strokeWeight: 2,
     });
 
   firstFlightPath.setMap(map);
