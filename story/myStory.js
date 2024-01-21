@@ -1,24 +1,24 @@
 function initMap() {
   // changed the pins/airports into variables for optimization purposes
-    const dxb = { lat: 25.253290925785134, lng: 55.36555478073066 };
-    const fra = { lat: 50.0379603540928, lng: 8.562533606281635 };
-    const yul = { lat: 45.46604694658018, lng: -73.74507989720708 };
-    const ysj = { lat: 45.32915634620157, lng: -65.89039652882502 };
-    const iconURL = { url: 'https://francis-soriano.github.io/geom99lab1/story/airport.png' }
+    const TIA = { lat: 27.70009475694379, lng: 85.35676458134074 }; 
+    const HIA = { lat: 25.259983197065303, lng: 51.61428160242852 };
+    const ZUR = { lat: 47.45306747929976, lng: 8.561976595358018 }; 
+    const YYZ = { lat: 43.67724211698366, lng: -79.63338885398906 }; 
+    const iconURL = { url: 'https://georajesh.github.io/geom99lab1/story/airport.png' }
     const map = new google.maps.Map(document.getElementById("map"), {
       zoom: 3,
-      center: { lat: 43.43464856542449, lng: -27.339630669624995 },
+      center: { lat: 50.769164, lng: 18.956104 },
     });
     
 // The following script is taken (and modified) from: https://developers.google.com/maps/documentation/javascript/examples/polyline-simple#maps_polyline_simple-javascript
     const firstLeg = [
-      dxb, fra
+      TIA, HIA
     ] ;
     const secondLeg = [
-      fra, yul
+      HIA, ZUR
     ] ;
     const thirdLeg = [
-      yul, ysj
+      ZUR, YYZ
     ] ;
     const firstFlightPath = new google.maps.Polyline({
         path: firstLeg,
@@ -52,14 +52,14 @@ function initMap() {
 // As well as: https://developers.google.com/maps/documentation/javascript/examples/infowindow-simple
 // And also: https://developers.google.com/maps/documentation/javascript/examples/infowindow-simple
 
-const dxbContentString =
+const TIAContentString =
     '<div id="content">' +
     '<div id="siteNotice">' +
     "</div>" +
-    '<h1 id="firstHeading" class="firstHeading">Dubai</h1>' +
+    '<h1 id="firstHeading" class="firstHeading">Kathmandu, Nepal</h1>' +
     '<div id="bodyContent">' +
-    "<p><b>Dubai International Airport</b>, known by the airport code <b>DXB</b>, is the largest " +
-    "international airport in the United Arab Emirates. It is one of " +
+    "<p><b>Tribhuvan International Airport</b>, known by the airport code <b>TIA</b>, is the largest " +
+    "international airport in Nepal. It is one of " +
     "the world's busiest airports -- the busiest for Airbus A380 and Boeing " +
     "B777 movements. The airport is the hub for Emirates, the largest airline " +
     "in the Middle East. The airline operates out of the airport's " +
@@ -70,66 +70,66 @@ const dxbContentString =
     "</div>" +
     "</div>";
 
-const dxbinfowindow = new google.maps.InfoWindow({
-  content: dxbContentString,
-  ariaLabel: "Dubai Airport",
+const TIAinfowindow = new google.maps.InfoWindow({
+  content: TIAContentString,
+  ariaLabel: "Tribhuvan International Airport",
   });
-const dxbMarker = new google.maps.Marker({
-  position: dxb,
+const TIAMarker = new google.maps.Marker({
+  position: TIA,
   map,
   icon: iconURL,
-  title: "DXB",
+  title: "TIA",
   });
 
-dxbMarker.addListener("click", () => {
-  dxbinfowindow.open({
-  anchor: dxbMarker,
+TIAMarker.addListener("click", () => {
+  TIAinfowindow.open({
+  anchor: TIAMarker,
   map,
     });
   });
 
-const fraContentString = 
+const HIAContentString = 
 '<div id="content">' +
     '<div id="siteNotice">' +
     "</div>" +
-    '<h1 id="firstHeading" class="firstHeading">Frankfurt</h1>' +
+    '<h1 id="firstHeading" class="firstHeading">Doha, Qatar</h1>' +
     '<div id="bodyContent">' +
-    "<p><b>Frankfurt Airport (FRA)</b>, also known as <b>Flughafen Frankfurt Main</b>, " +
+    "<p><b>Hamad International Airport (HIA)</b>, also known as <b>Flughafen HIAnkfurt Main</b>, " +
     "is one of the major ariports in Europe. The airport is the main hub for the flag " +
     "carrier of Germany; Lufthansa. The airport is one of the most connected " +
     "in the world, serving more than 300 direct destinations. The airport is the " +
     "busiest in Germany and the 4th busiest in Europe. </p>" +
-    '<p>Attribution: Frankfurt Airport, <a href="https://en.wikipedia.org/wiki/Frankfurt_Airport">' +
-    "https://en.wikipedia.org/wiki/Frankfurt_Airport</a> " +
+    '<p>Attribution: HIAnkfurt Airport, <a href="https://en.wikipedia.org/wiki/HIAnkfurt_Airport">' +
+    "https://en.wikipedia.org/wiki/HIAnkfurt_Airport</a> " +
     "(last visited January 25, 2023).</p>" +
     "</div>" +
     "</div>";
 
-const frainfowindow = new google.maps.InfoWindow({
-  content: fraContentString,
-  ariaLabel: "Frankfurt Airport",
+const HIAinfowindow = new google.maps.InfoWindow({
+  content: HIAContentString,
+  ariaLabel: "Hamad International Airport",
   });
-const fraMarker = new google.maps.Marker({
-  position: fra,
+const HIAMarker = new google.maps.Marker({
+  position: HIA,
   map,
   icon: iconURL,
-  title: "FRA",
+  title: "HIA",
   });
 
-fraMarker.addListener("click", () => {
-  frainfowindow.open({
-  anchor: fraMarker,
+HIAMarker.addListener("click", () => {
+  HIAinfowindow.open({
+  anchor: HIAMarker,
   map,
     });
   });
 
-const yulContentString = 
+const ZURContentString = 
 '<div id="content">' +
     '<div id="siteNotice">' +
     "</div>" +
-    '<h1 id="firstHeading" class="firstHeading">Montreal</h1>' +
+    '<h1 id="firstHeading" class="firstHeading">Zurich, Switzerland</h1>' +
     '<div id="bodyContent">' +
-    "<p><b>Montréal–Trudeau International Airport (YUL)</b> or <b>Montréal–Trudeau</b>, " +
+    "<p><b>Montréal–Trudeau International Airport (ZUR)</b> or <b>Montréal–Trudeau</b>, " +
     "is a major airport in Canada serving Montreal and surrounding areas. Of the two airports in " +
     "Montreal, the other being Montréal–Mirabel, Montréal–Trudeau is the busiest in the province, " +
     "making it the 4th busiest in Canada. It is one of the main gateways into Canada. The airport is " +
@@ -140,31 +140,31 @@ const yulContentString =
     "</div>" +
     "</div>";
 
-const yulinfowindow = new google.maps.InfoWindow({
-  content: yulContentString,
-  ariaLabel: "Montreal Airport",
+const ZURinfowindow = new google.maps.InfoWindow({
+  content: ZURContentString,
+  ariaLabel: "Zurich Airport",
   });
-const yulMarker = new google.maps.Marker({
-  position: yul,
+const ZURMarker = new google.maps.Marker({
+  position: ZUR,
   map,
   icon: iconURL,
-  title: "YUL",
+  title: "ZUR",
   });
 
-yulMarker.addListener("click", () => {
-  yulinfowindow.open({
-  anchor: yulMarker,
+ZURMarker.addListener("click", () => {
+  ZURinfowindow.open({
+  anchor: ZURMarker,
   map,
     });
   });
 
-const ysjContentString = 
+const YYZContentString = 
 '<div id="content">' +
     '<div id="siteNotice">' +
     "</div>" +
-    '<h1 id="firstHeading" class="firstHeading">Saint John</h1>' +
+    '<h1 id="firstHeading" class="firstHeading">Toronto, Canada</h1>' +
     '<div id="bodyContent">' +
-    "<p><b>Saint John Airport (YSJ)</b> is a small airport serving the city of Saint John in " +
+    "<p><b>Saint John Airport (YYZ)</b> is a small airport serving the city of Saint John in " +
     "the province of New Brunswick. Despite being situated 15 km from the city's central business" +
     "district, the airport is still the boundaries of the city. Moreover, despite being a small airport, " +
     "the airport is designated as an airport of entry by Nav Canada and is staffed by " +
@@ -175,20 +175,20 @@ const ysjContentString =
     "</div>" +
     "</div>";
 
-const ysjinfowindow = new google.maps.InfoWindow({
-  content: ysjContentString,
-  ariaLabel: "Saint John Airport",
+const YYZinfowindow = new google.maps.InfoWindow({
+  content: YYZContentString,
+  ariaLabel: "Toronto Pearson International Airport",
   });
-const ysjMarker = new google.maps.Marker({
-  position: ysj,
+const YYZMarker = new google.maps.Marker({
+  position: YYZ,
   map,
   icon: iconURL,
-  title: "YSJ",
+  title: "YYZ",
   });
 
-ysjMarker.addListener("click", () => {
-  ysjinfowindow.open({
-  anchor: ysjMarker,
+YYZMarker.addListener("click", () => {
+  YYZinfowindow.open({
+  anchor: YYZMarker,
   map,
     });
   });
