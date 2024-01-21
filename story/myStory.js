@@ -4,7 +4,14 @@ function initMap() {
     const HIA = { lat: 25.259983197065303, lng: 51.61428160242852 };
     const ZUR = { lat: 47.45306747929976, lng: 8.561976595358018 }; 
     const YYZ = { lat: 43.67724211698366, lng: -79.63338885398906 }; 
-    const iconURL = { url: 'https://georajesh.github.io/geom99lab1/story/airport.png' }
+    const iconURL = { url: 'https://georajesh.github.io/geom99lab1/story/airport.png', 
+                    // This marker is 20 pixels wide by 32 pixels high.
+                    size: new google.maps.Size(20, 32),
+                    // The origin for this image is (0, 0).
+                    origin: new google.maps.Point(0, 0),
+                    // The anchor for this image is the base of the flagpole at (0, 32).
+                    anchor: new google.maps.Point(0, 32),
+                    }
     const map = new google.maps.Map(document.getElementById("map"), {
       zoom: 3,
       center: { lat: 50.769164, lng: 18.956104 },
