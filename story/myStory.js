@@ -10,7 +10,7 @@ function initMap() {
                     // The origin for this image is (0, 0).
                     origin: new google.maps.Point(0, 0),
                     // The anchor for this image is the base of the icon at (0, 12).
-                    anchor: new google.maps.Point(0, 16)
+                    anchor: new google.maps.Point(16, 0)
                     }
     const map = new google.maps.Map(document.getElementById("map"), {
       zoom: 3,
