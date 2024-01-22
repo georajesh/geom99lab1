@@ -4,10 +4,7 @@ function initMap() {
     const HIA = { lat: 25.259983197065303, lng: 51.61428160242852 };
     const ZUR = { lat: 47.45306747929976, lng: 8.561976595358018 }; 
     const YYZ = { lat: 43.67724211698366, lng: -79.63338885398906 }; 
-    const iconURL = { url: 'https://georajesh.github.io/geom99lab1/story/airport.png', 
-                    // This marker is 50 pixels wide by 50 pixels high.
-                    size: new google.maps.Size(50, 50),
-                    }
+    const iconURL = { url: 'https://georajesh.github.io/geom99lab1/story/airport.png'}
     const map = new google.maps.Map(document.getElementById("map"), {
       zoom: 3,
       center: { lat: 37.815592, lng: 14.668300 }, 
