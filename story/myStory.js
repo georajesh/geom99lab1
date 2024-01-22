@@ -102,14 +102,14 @@ const HIAContentString =
     "</div>" +
     '<h1 id="firstHeading" class="firstHeading">Doha, Qatar</h1>' +
     '<div id="bodyContent">' +
-    "<p><b>Hamad International Airport (HIA)</b>, also known as <b>Flughafen HIAnkfurt Main</b>, " +
-    "is one of the major ariports in Europe. The airport is the main hub for the flag " +
-    "carrier of Germany; Lufthansa. The airport is one of the most connected " +
-    "in the world, serving more than 300 direct destinations. The airport is the " +
-    "busiest in Germany and the 4th busiest in Europe. </p>" +
-    '<p>Attribution: HIAnkfurt Airport, <a href="https://en.wikipedia.org/wiki/HIAnkfurt_Airport">' +
-    "https://en.wikipedia.org/wiki/HIAnkfurt_Airport</a> " +
-    "(last visited January 25, 2023).</p>" +
+    "<p><b>Hamad International Airport (HIA)</b>, (IATA: <b>DOH</b>, ICAO: <b>OTHH</b>) (Arabic: مطار حمد الدولي, Maṭār Ḥamad al-Duwalī) is an international airport in the State of Qatar," +
+    "and the home of Qatar’s flag carrier airline, Qatar Airways. Located east of its capital, Doha, it replaced the nearby " +
+    "Doha International Airport as Qatar's principal and main national airport. " +
+    "Formerly known as New Doha International Airport (NDIA), Hamad International Airport was originally scheduled to open in 2008, " +
+    "but after a series of costly delays, the airport finally opened six years overdue on 30 April 2014 with a ceremonial Qatar Airways flight landing from nearby Doha International.  </p>" +
+    '<p>Attribution: Hamad International Airport, <a href="https://en.wikipedia.org/wiki/Hamad_International_Airport">' +
+    "https://en.wikipedia.org/wiki/Hamad_International_Airport</a> " +
+    "(last visited January 21, 2024).</p>" +
     "</div>" +
     "</div>";
 
@@ -137,14 +137,14 @@ const ZURContentString =
     "</div>" +
     '<h1 id="firstHeading" class="firstHeading">Zurich, Switzerland</h1>' +
     '<div id="bodyContent">' +
-    "<p><b>Montréal–Trudeau International Airport (ZUR)</b> or <b>Montréal–Trudeau</b>, " +
-    "is a major airport in Canada serving Montreal and surrounding areas. Of the two airports in " +
-    "Montreal, the other being Montréal–Mirabel, Montréal–Trudeau is the busiest in the province, " +
-    "making it the 4th busiest in Canada. It is one of the main gateways into Canada. The airport is " +
-    "home to Air Canada, Canada's flag carrier airline. </p>" +
-    '<p>Attribution: Montreal Airport, <a href="https://en.wikipedia.org/wiki/Montr%C3%A9al%E2%80%93Trudeau_International_Airport">' +
-    "https://en.wikipedia.org/wiki/Montréal-Trudeau_International_Airport</a> " +
-    "(last visited January 25, 2023).</p>" +
+    "<p><b>Zurich Airport (ZRH)</b> (IATA: <b>ZRH</b>, ICAO: <b>LSZH</b>) is the largest international airport " +
+    "of Switzerland and the principal hub of Swiss International Air Lines. " +
+    "It serves Zürich, Switzerland's largest city, and, with its surface transport links, much of the rest of the country." +
+    "The airport is located 13 kilometres (8 mi) north of central Zürich, in the municipalities of Kloten, Rümlang, " +
+    "Oberglatt, Winkel, and Opfikon, all of which are within the canton of Zürich. </p>" +
+    '<p>Attribution: Zurich Airport, <a href="https://en.wikipedia.org/wiki/Zurich_Airport">' +
+    "https://en.wikipedia.org/wiki/Zurich_Airport</a> " +
+    "(last visited January 21, 2024).</p>" +
     "</div>" +
     "</div>";
 
@@ -172,14 +172,14 @@ const YYZContentString =
     "</div>" +
     '<h1 id="firstHeading" class="firstHeading">Toronto, Canada</h1>' +
     '<div id="bodyContent">' +
-    "<p><b>Saint John Airport (YYZ)</b> is a small airport serving the city of Saint John in " +
-    "the province of New Brunswick. Despite being situated 15 km from the city's central business" +
-    "district, the airport is still the boundaries of the city. Moreover, despite being a small airport, " +
-    "the airport is designated as an airport of entry by Nav Canada and is staffed by " +
-    "Canada Border Services Agency (CBSA). Mostly, it is CANPASS flights that are served by the CBSA from this port of entry. </p>" +
-    '<p>Attribution: Saint John Airport, <a href="https://en.wikipedia.org/wiki/Saint_John_Airport">' +
-    "https://en.wikipedia.org/wiki/Saint_John_Airport</a> " +
-    "(last visited January 25, 2023).</p>" +
+    "<p><b>Toronto Pearson International Airport</b> (IATA: <b>YYZ</b>, ICAO: <b>CYYZ<b/>; " +
+    "originally <b>Malton Airport</b>, simply <b>Toronto Pearson</b> or <b>Pearson</b>, " +
+    "and officially <b>Lester B. Pearson International Airport</b>) is an international airport located in Mississauga, Ontario, Canada. " +
+    "It is the main airport serving Toronto, its metropolitan area, and the surrounding region known as the Golden Horseshoe. " +
+    "The airport is named in honour of Lester B. Pearson, who served as the 14th Prime minister of Canada (1963–1968) and received the Nobel Peace Prize in 1957 for his humanitarian work in peacekeeping </p>" +
+    '<p>Attribution: Toronto Pearson International Airport, <a href="https://en.wikipedia.org/wiki/Toronto_Pearson_International_Airport">' +
+    "https://en.wikipedia.org/wiki/Toronto_Pearson_International_Airport</a> " +
+    "(last visited January 21, 2024).</p>" +
     "</div>" +
     "</div>";
 
