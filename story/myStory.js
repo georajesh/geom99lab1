@@ -172,7 +172,7 @@ const YYZContentString =
     "</div>" +
     '<h1 id="firstHeading" class="firstHeading">Toronto, Canada</h1>' +
     '<div id="bodyContent">' +
-    "<p><b>Toronto Pearson International Airport</b> (IATA: <b>YYZ</b>, ICAO: <b>CYYZ<b/>; " +
+    "<p><b>Toronto Pearson International Airport</b> (IATA: <b>YYZ</b>, ICAO: <b>CYYZ</b>; " +
     "originally <b>Malton Airport</b>, simply <b>Toronto Pearson</b> or <b>Pearson</b>, " +
     "and officially <b>Lester B. Pearson International Airport</b>) is an international airport located in Mississauga, Ontario, Canada. " +
     "It is the main airport serving Toronto, its metropolitan area, and the surrounding region known as the Golden Horseshoe. " +
