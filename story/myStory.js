@@ -201,4 +201,5 @@ YYZMarker.addListener("click", () => {
   });
 
 }
+
 window.initMap = initMap;
