@@ -176,7 +176,7 @@ const YYZContentString =
     "originally <b>Malton Airport</b>, simply <b>Toronto Pearson</b> or <b>Pearson</b>, " +
     "and officially <b>Lester B. Pearson International Airport</b>) is an international airport located in Mississauga, Ontario, Canada. " +
     "It is the main airport serving Toronto, its metropolitan area, and the surrounding region known as the Golden Horseshoe. " +
-    "The airport is named in honour of Lester B. Pearson, who served as the 14th Prime minister of Canada (1963–1968) and received the Nobel Peace Prize in 1957 for his humanitarian work in peacekeeping </p>" +
+    "The airport is named in honour of Lester B. Pearson, who served as the 14th Prime minister of Canada (1963–1968) and received the Nobel Peace Prize in 1957 for his humanitarian work in peacekeeping. </p>" +
     '<p>Attribution: Toronto Pearson International Airport, <a href="https://en.wikipedia.org/wiki/Toronto_Pearson_International_Airport">' +
     "https://en.wikipedia.org/wiki/Toronto_Pearson_International_Airport</a> " +
     "(last visited January 21, 2024).</p>" +
