@@ -5,13 +5,13 @@ function initMap() {
     const ZUR = { lat: 47.45306747929976, lng: 8.561976595358018 }; 
     const YYZ = { lat: 43.67724211698366, lng: -79.63338885398906 }; 
     const iconURL = { url: 'https://georajesh.github.io/geom99lab1/story/airport.png',
-                    // This marker is 24 pixels wide by 24 pixels high.
-                    size: new google.maps.Size(32, 32),
-                    // The origin for this image is (0, 0).
-                    origin: new google.maps.Point(0, 0),
-                    // The anchor for this image is the base of the icon at (0, 12).
-                    anchor: new google.maps.Point(16, 0)
-                    }
+      // This marker is 24 pixels wide by 24 pixels high.
+      size: new google.maps.Size(32, 32),
+      // The origin for this image is (0, 0).
+      origin: new google.maps.Point(0, 0),
+      // The anchor for this image is the base of the icon at (16,0).
+      anchor: new google.maps.Point(16, 0)
+      }
     const map = new google.maps.Map(document.getElementById("map"), {
       zoom: 3,
       center: { lat: 35.901014182587254, lng: 14.395113226453704 },
@@ -66,7 +66,8 @@ const TIAContentString =
     '<h1 id="firstHeading" class="firstHeading">Kathmandu, Nepal</h1>' +
     '<div id="bodyContent">' +
     "<p><b>Tribhuvan International Airport</b>, (Nepali: त्रिभुवन अन्तर्राष्ट्रिय विमानस्थल) (IATA: <b>KTM</b>, ICAO: <b>VNKT</b>, colloquially referred to as <b>TIA</b>), " + 
-    "is an international airport located" " + in Kathmandu, Bagmati, Nepal. " +
+    "is an international airport located" + 
+    "in Kathmandu, Bagmati, Nepal. " +
     "It has a tabletop runway, a domestic terminal and an international terminal. " +
     "As the country's main international airport, it connects Nepal to over 40 destinations in 17 countries. " +
     "The airport is a hub for two international airlines, the flag carrier Nepal Airlines and Himalaya Airlines, along with multiple domestic carriers. " +
