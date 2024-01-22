@@ -65,15 +65,15 @@ const TIAContentString =
     "</div>" +
     '<h1 id="firstHeading" class="firstHeading">Kathmandu, Nepal</h1>' +
     '<div id="bodyContent">' +
-    "<p><b>Tribhuvan International Airport</b>, known by the airport code <b>TIA</b>, is the largest " +
-    "international airport in Nepal. It is one of " +
-    "the world's busiest airports -- the busiest for Airbus A380 and Boeing " +
-    "B777 movements. The airport is the hub for Emirates, the largest airline " +
-    "in the Middle East. The airline operates out of the airport's " +
-    "Terminal 3.</p>" +
-    '<p>Attribution: Dubai International Airport, <a href="https://en.wikipedia.org/wiki/Dubai_International_Airport">' +
-    "https://en.wikipedia.org/wiki/Dubai_International_Airport</a> " +
-    "(last visited January 25, 2023).</p>" +
+    "<p><b>Tribhuvan International Airport</b>, (Nepali: त्रिभुवन अन्तर्राष्ट्रिय विमानस्थल) (IATA: <b>KTM</b>, ICAO: <b>VNKT</b>, colloquially referred to as <b>TIA</b>), " + 
+    "is an international airport located" " + in Kathmandu, Bagmati, Nepal. " +
+    "It has a tabletop runway, a domestic terminal and an international terminal. " +
+    "As the country's main international airport, it connects Nepal to over 40 destinations in 17 countries. " +
+    "The airport is a hub for two international airlines, the flag carrier Nepal Airlines and Himalaya Airlines, along with multiple domestic carriers. " +
+    "The airport is considered as a starting point for Mount Everest international tourists, with several daily flights to Lukla.</p>" +
+    '<p>Attribution: Tribhuvan International Airport, <a href="https://en.wikipedia.org/wiki/Tribhuvan_International_Airport">' +
+    "https://en.wikipedia.org/wiki/Tribhuvan_International_Airport</a> " +
+    "(last visited January 21, 2024).</p>" +
     "</div>" +
     "</div>";
 
