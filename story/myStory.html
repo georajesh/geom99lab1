@@ -30,14 +30,31 @@
 
         .dashboard .leftside h1 {
           font-family: Arial, Helvetica, sans-serif;
-          color: #4F4F4B;
+          color: black;
           text-align: center;
         }
         .dashboard .leftside h3 {
           font-family: Arial, Helvetica, sans-serif;
-          color:#4F4F4B;
-          font-style: italic;
-          text-align: center;
+          color:black;
+          font-style: bold;
+          text-align: left;
+        }
+
+        .dashboard .leftside .legend {
+          display: flex;
+          align-items: center;
+          padding-left: 20px;
+          gap: 5px;
+        }
+
+        .dashboard .leftside .legend img{
+          height: auto;
+          width: auto;
+        }
+        .dashboard .leftside p {
+          font-family: Arial, Helvetica, sans-serif;
+          color:black;
+          text-align: justify;
         }
     </style>
     <!-- JavaScript got too chunky, changed over to its own .js file -->
@@ -47,7 +64,13 @@
   <div class="dashboard">
     <div class="leftside">
       <h1>My Trip Summary</h1>
-      <h3>This map displays my flight route to Canada.</h3>
+      <h3>Legend</h3>
+      <div class="legend">
+        <img src="C:\Users\rdula\Desktop\airport.png" alt="airports">
+        <p>Airport</p>
+      </div>
+      <h2>TIA to HIA</h2>
+      <p>On August 29, 2023, I departed from Tribhuvan International Airport, Kathmandu, Nepal at 18:00. It was a 5 hours flight too Hamad International Airport, Doha, Qatar. </p>
     </div>
     <div class="map_space">
       <div id="map"></div>
