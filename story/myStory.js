@@ -30,7 +30,7 @@ function initMap() {
     const firstFlightPath = new google.maps.Polyline({
         path: firstLeg,
         geodesic: true,
-        strokeColor: "rgb(0,0,0)",
+        strokeColor: "rgb(255,0,0)",
         strokeOpacity: 1.0,
         strokeWeight: 2,
     });
@@ -46,7 +46,7 @@ function initMap() {
   const thirdFlightPath = new google.maps.Polyline({
         path: thirdLeg,
         geodesic: true,
-        strokeColor: "rgb(0,0,255)",
+        strokeColor: "rgb(255,0,0)",
         strokeOpacity: 1.0,
         strokeWeight: 2,
     });
