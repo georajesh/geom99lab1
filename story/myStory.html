@@ -7,7 +7,7 @@
       /* Always set the map height explicitly to define the size of the div
        * element that contains the map. */
         #map {
-          height: 720px;
+          height: 700px;
         }
 
         /* Optional: Makes the sample page fill the window. */
@@ -23,7 +23,6 @@
         }
 
         .dashboard .leftside {
-            display: block;
             padding: 10px;
             text-align: left;
             background-color: darkgrey;
@@ -40,18 +39,6 @@
           font-style: italic;
           text-align: center;
         }
-      .dashboard .leftside p {
-          font-family: Arial, Helvetica, sans-serif;
-          color:#4F4F4B;
-          font-style: regular;
-          text-align: justified;
-        }
-      .dashboard .leftside .legend {
-          display: flex;
-          align-items: center;
-        }
-      
-      
     </style>
     <!-- JavaScript got too chunky, changed over to its own .js file -->
     <script src="myStory.js"></script>
@@ -60,15 +47,7 @@
   <div class="dashboard">
     <div class="leftside">
       <h1>My Trip Summary</h1>
-      <div class="legend">
-        <img src="story/airport.png" alt ="Airports">
-        <p> Airports</p>
-      <h3>TIA to HIA</h3>
-      <p> Leaving Home </p>
-      <h3>HIA to ZUR</h3>
-      <p> </p>
-      <h3>ZUR to YYZ</h3>
-      <p> </p>
+      <h3>This map displays my flight route to Canada.</h3>
     </div>
     <div class="map_space">
       <div id="map"></div>
