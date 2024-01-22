@@ -14,7 +14,7 @@ function initMap() {
                     }
     const map = new google.maps.Map(document.getElementById("map"), {
       zoom: 3,
-      center: { lat: 37.815592, lng: 14.668300 }, 
+      center: { lat: 18.324079, lng: 13.393207 },
     });
     
 // The following script is taken (and modified) from: https://developers.google.com/maps/documentation/javascript/examples/polyline-simple#maps_polyline_simple-javascript
