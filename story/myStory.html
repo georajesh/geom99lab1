@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <title>My Travel Route</title>
+    <title>myStory</title>
     <script src="https://polyfill.io/v3/polyfill.min.js?features=default"></script>
     <style>
       /* Always set the map height explicitly to define the size of the div
@@ -17,15 +17,23 @@
           margin: 0;
           padding: 0;
         }
-        .space {
-          padding-left: 20px;
+        .dashboard {
+          display: inline-grid;
+          grid-template-columns: 1fr 4fr;
         }
-        h1 {
+
+        .dashboard .leftside {
+            padding: 10px;
+            text-align: left;
+            background-color: darkgrey;
+        }
+
+        .dashboard .leftside h1 {
           font-family: Arial, Helvetica, sans-serif;
           color: #4F4F4B;
           text-align: center;
         }
-        h3 {
+        .dashboard .leftside h3 {
           font-family: Arial, Helvetica, sans-serif;
           color:#4F4F4B;
           font-style: italic;
@@ -36,9 +44,15 @@
     <script src="myStory.js"></script>
   </head>
 <body>
-  <h1>Flights I took to get to Canada</h1>
-  <h3>On this page, you will find the flights I took from Nepal to get to Canada.</h3>
-  <div id="map"></div>
+  <div class="dashboard">
+    <div class="leftside">
+      <h1>My Trip Summary</h1>
+      <h3>This map displays my flight route to Canada.</h3>
+    </div>
+    <div class="map_space">
+      <div id="map"></div>
+    </div>
+  </div>
   <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDv3MGflguusDaLmV_-BUlmuoUI4EbM88w&callback=initMap&v=weekly" async>
   </script>
 </body>
