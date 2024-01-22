@@ -9,12 +9,12 @@ function initMap() {
       size: new google.maps.Size(32, 32),
       // The origin for this image is (0, 0).
       origin: new google.maps.Point(0, 0),
-      // The anchor for this image is the base of the icon at (16,0).
-      anchor: new google.maps.Point(16, 0)
+      // The anchor for this image is the base of the icon at (0,0).
+      anchor: new google.maps.Point(0, 0)
       }
     const map = new google.maps.Map(document.getElementById("map"), {
       zoom: 3,
-      center: { lat: 35.901014182587254, lng: 14.395113226453704 },
+      center: { lat: 40.16388340203964, lng: 9.035253898083067 },
     });
     
 // The following script is taken (and modified) from: https://developers.google.com/maps/documentation/javascript/examples/polyline-simple#maps_polyline_simple-javascript
