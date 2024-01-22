@@ -6,11 +6,11 @@ function initMap() {
     const YYZ = { lat: 43.67724211698366, lng: -79.63338885398906 }; 
     const iconURL = { url: 'https://georajesh.github.io/geom99lab1/story/airport.png',
                     // This marker is 24 pixels wide by 24 pixels high.
-                    size: new google.maps.Size(24, 24),
+                    size: new google.maps.Size(32, 32),
                     // The origin for this image is (0, 0).
                     origin: new google.maps.Point(0, 0),
                     // The anchor for this image is the base of the icon at (0, 12).
-                    anchor: new google.maps.Point(0, 12)
+                    anchor: new google.maps.Point(0, 16)
                     }
     const map = new google.maps.Map(document.getElementById("map"), {
       zoom: 3,
