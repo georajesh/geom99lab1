@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <style>
+      body {font-family: "Trebuchet MS","sans-serif";}    
+      body, html {width: 100%; height: 100%; margin: 0; padding: 0}  /* uses FlexBox https://www.w3schools.com/css/css3_flexbox.asp */
+      .row-container {display: flex; width: 100%; height: 100%; flex-direction: column; background-color: white; overflow: hidden;}
+      .first-row {background-color: grey; }
+      .second-row {flex-grow: 1; border: none; margin: 0; padding: 0;}
+      h1 {margin: 2px;}
+    </style>
+  </head>
+<body>
+  <div class="row-container">
+    <div class="first-row">
+      <h1>West Seti 400KV Lidar Survey Plan</h1>
+    </div>
+    <iframe class="second-row" id="GoogleMyMaps" src="https://www.google.com/maps/d/u/0/embed?mid=1azYzZE8yuuvpV0laXj6TQrwRps-7y_I2&ehbc=2E312F&z=12">
+    </iframe>
+  </div>
+</body>
+</html>
